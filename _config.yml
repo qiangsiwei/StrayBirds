@@ -116,7 +116,7 @@ disqus:
 #################################### global configure #######################################
 
 username: qiangsiwei
-baseurl: /blog
+baseurl: /blogs
 markdown: redcarpet
 safe: false
 highlighter: pygments
