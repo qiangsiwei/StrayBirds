@@ -64,23 +64,7 @@ bazel test --linkopt=-headerpad_max_install_names syntaxnet/... util/utf8/...
 
 显示如下表示安装成功
 
-```
-INFO: Elapsed time: 42115.745s, Critical Path: 3791.98s
-//syntaxnet:arc_standard_transitions_test                                PASSED in 0.1s
-//syntaxnet:beam_reader_ops_test                                         PASSED in 40.1s
-//syntaxnet:graph_builder_test                                           PASSED in 26.0s
-//syntaxnet:lexicon_builder_test                                         PASSED in 3.0s
-//syntaxnet:parser_features_test                                         PASSED in 0.1s
-//syntaxnet:parser_trainer_test                                          PASSED in 89.6s
-//syntaxnet:reader_ops_test                                              PASSED in 8.2s
-//syntaxnet:sentence_features_test                                       PASSED in 0.1s
-//syntaxnet:shared_store_test                                            PASSED in 1.7s
-//syntaxnet:tagger_transitions_test                                      PASSED in 0.1s
-//syntaxnet:text_formats_test                                            PASSED in 3.1s
-//util/utf8:unicodetext_unittest                                         PASSED in 0.1s
-
-Executed 12 out of 12 tests: 12 tests pass.
-```
+![此处输入图片的描述][1]
 
 运行syntaxnet/demo.sh进行测试
 
@@ -163,4 +147,7 @@ brought VBD ROOT
 ***相关连接***
 
  - https://github.com/qiangsiwei/models/tree/master/syntaxnet
+
+
+  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-16-SyntaxNet/2016-05-16-SyntaxNet_1.png
 
