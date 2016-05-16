@@ -15,16 +15,6 @@ comments: true
 这个名为Parsey McParseface的句法分析程序可以自动判断某个单词是名词、动词还是形容词。
 它是目前全球同类程序中准确度最高的一款，甚至可以与人类语言学家媲美。
 
-模型准确率比较如下。
-
-Model                                                                                                           | News  | Web   | Questions   
---------------------------------------------------------------------------------------------------------------- | :---: | :---: | :-------:   
-[Martins et al. (2013)](http://www.cs.cmu.edu/~ark/TurboParser/)                                                | 93.10 | 88.23 | 94.21   
-[Zhang and McDonald (2014)](http://research.google.com/pubs/archive/38148.pdf)                                  | 93.32 | 88.65 | 93.37   
-[Weiss et al. (2015)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43800.pdf) | 93.91 | 89.29 | 94.17   
-[Andor et al. (2016)](http://arxiv.org/pdf/1603.06042v1.pdf)*                                                   | 94.44 | 90.17 | 95.40   
-Parsey McParseface                                                                                              | 94.15 | 89.08 | 94.77   
-
 <https://github.com/qiangsiwei/models/tree/master/syntaxnet>
 
 SyntaxNet安装过程如下（基于Mac OS X）。
