@@ -17,19 +17,19 @@ comments: true
 
 模型准确率比较如下。
 
-Model                                                                                                           | News  | Web   | Questions
---------------------------------------------------------------------------------------------------------------- | :---: | :---: | :-------:
-[Martins et al. (2013)](http://www.cs.cmu.edu/~ark/TurboParser/)                                                | 93.10 | 88.23 | 94.21
-[Zhang and McDonald (2014)](http://research.google.com/pubs/archive/38148.pdf)                                  | 93.32 | 88.65 | 93.37
-[Weiss et al. (2015)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43800.pdf) | 93.91 | 89.29 | 94.17
-[Andor et al. (2016)](http://arxiv.org/pdf/1603.06042v1.pdf)*                                                   | 94.44 | 90.17 | 95.40
-Parsey McParseface                                                                                              | 94.15 | 89.08 | 94.77
+Model                                                                                                           | News  | Web   | Questions   
+--------------------------------------------------------------------------------------------------------------- | :---: | :---: | :-------:   
+[Martins et al. (2013)](http://www.cs.cmu.edu/~ark/TurboParser/)                                                | 93.10 | 88.23 | 94.21   
+[Zhang and McDonald (2014)](http://research.google.com/pubs/archive/38148.pdf)                                  | 93.32 | 88.65 | 93.37   
+[Weiss et al. (2015)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43800.pdf) | 93.91 | 89.29 | 94.17   
+[Andor et al. (2016)](http://arxiv.org/pdf/1603.06042v1.pdf)*                                                   | 94.44 | 90.17 | 95.40   
+Parsey McParseface                                                                                              | 94.15 | 89.08 | 94.77   
 
 <https://github.com/qiangsiwei/models/tree/master/syntaxnet>
 
 SyntaxNet安装过程如下（基于Mac OS X）。
 
-## Install bazel
+Install bazel
 
 由于WORKSPACE issue，需要安装0.2.2版本而不是0.2.2b
 
@@ -43,26 +43,26 @@ chmod +x bazel-version-installer-os.sh
 export PATH="$PATH:$HOME/bin"
 ```
 
-## Install swig
+Install swig
 
 ```
 brew install swig
 ```
 
-## Install protocol buffers, with a version supported by TensorFlow
+Install protocol buffers, with a version supported by TensorFlow
 
 ```
 pip freeze | grep protobuf1
 pip install -U protobuf==3.0.0b2
 ```
 
-## Install asciitree, to draw parse trees on the console for the demo
+Install asciitree, to draw parse trees on the console for the demo
 
 ```
 pip install asciitree
 ```
 
-## Build SyntaxNet
+Build SyntaxNet
 
 ```
 git clone --recursive https://github.com/tensorflow/models.git
@@ -72,7 +72,7 @@ cd ..
 bazel test --linkopt=-headerpad_max_install_names syntaxnet/... util/utf8/...
 ```
 
-## 显示如下表示安装成功。
+显示如下表示安装成功
 
 ```
 INFO: Elapsed time: 42115.745s, Critical Path: 3791.98s
@@ -92,13 +92,13 @@ INFO: Elapsed time: 42115.745s, Critical Path: 3791.98s
 Executed 12 out of 12 tests: 12 tests pass.
 ```
 
-## 运行syntaxnet/demo.sh进行测试
+运行syntaxnet/demo.sh进行测试
 
 ```
 echo 'Bob brought the pizza to Alice.' | syntaxnet/demo.sh
 ```
 
-输出结果如下。
+输出结果如下
 
 ```
 I syntaxnet/term_frequency_map.cc:101] Loaded 46 terms from syntaxnet/models/parsey_mcparseface/label-map.
