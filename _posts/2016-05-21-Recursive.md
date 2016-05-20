@@ -26,7 +26,7 @@ comments: true
 
 ![此处输入图片的描述][3]
 
-如下图所示，针对图像中的像素点或字符串中的字符序列，根据相邻关系定义出临接矩阵（adjacency matrix）。只有临近的结点能够进行递归。A training image (red and blue are di↵erently labeled regions) defines a set of correct trees which is oblivious to the order in which segments with the same label are merged.
+如下图所示，针对图像中的像素点或字符串中的字符序列，根据相邻关系定义出临接矩阵（adjacency matrix）。只有临近的结点能够进行递归。A training image (red and blue are differently labeled regions) defines a set of correct trees which is oblivious to the order in which segments with the same label are merged.
 
 ![此处输入图片的描述][4]
 
