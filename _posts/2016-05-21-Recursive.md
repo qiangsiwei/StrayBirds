@@ -54,23 +54,23 @@ Reference: Peng Li, Yang Liu, Maosong Sun. Recursive Autoencoders for ITG-based 
 <http://www.socher.org/index.php/Main/Semi-SupervisedRecursiveAutoencodersForPredictingSentimentDistributions>
 
 ```
-@inproceedings{SocherEtAl2011:RAE,
-author = {Richard Socher and Jeffrey Pennington and Eric H. Huang and Andrew Y. Ng and Christopher D. Manning},
-title = {{Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions}},
-booktitle = {Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing (EMNLP)}, 
-year = 2011
-}
+\\@inproceedings{SocherEtAl2011:RAE,
+\\author = {Richard Socher and Jeffrey Pennington and Eric H. Huang and Andrew Y. Ng and Christopher D. Manning},
+\\title = {{Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions}},
+\\booktitle = {Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing (EMNLP)}, 
+\\year = 2011
+\\}
 ```
 
-<http://www.socher.org/index.php/Main/DynamicPoolingAndUnfoldingRecursiveAutoencodersForParaphraseDetection>
+<http://www.socher.org/index.php/Main/Dynamic PoolingAndUnfoldingRecursiveAutoencodersForParaphraseDetection>
 
 ```
-@incollection{SocherEtAl2011:PoolRAE,
-title = {{Dynamic Pooling and Unfolding Recursive Autoencoders for Paraphrase Detection}},
-author = {{Richard Socher and Eric H. Huang and Jeffrey Pennington and Andrew Y. Ng and Christopher D. Manning}},
-booktitle = {{Advances in Neural Information Processing Systems 24}},
-year = {2011}
-}
+\\@incollection{SocherEtAl2011:PoolRAE,
+\\title = {{Dynamic Pooling and Unfolding Recursive Autoencoders for Paraphrase Detection}},
+\\author = {{Richard Socher and Eric H. Huang and Jeffrey Pennington and Andrew Y. Ng and Christopher D. Manning}},
+\\booktitle = {{Advances in Neural Information Processing Systems 24}},
+\\year = {2011}
+\\}
 ```
 
 ------
@@ -109,14 +109,12 @@ year = {2011}
 
 
   [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_1.png
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_1.png
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_1.png
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_1.png
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_1.png
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_1.png
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_1.png
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_1.png
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_1.png
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_1.png
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_1.png
-
+  [2]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_2.png
+  [3]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_3.png
+  [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_4.png
+  [5]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_5.png
+  [6]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_6.png
+  [7]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_7.png
+  [8]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_8.png
+  [9]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_9.png
+  [10]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-21-Recursive/2016-05-21-Recursive_10.png
