@@ -49,29 +49,9 @@ RAE的实现代码搜集如下。
 str2vec is a toolkit for computing vector-space representations for variable-length phrases using recursive autoencoders (RAE)   
 Reference: Peng Li, Yang Liu, Maosong Sun. Recursive Autoencoders for ITG-based Translation. Proc. of EMNLP 2013: Conference on Empirical Methods in Natural Language Processing, Seattle, Washington, USA, 2013, pp. 567-577.
 
- - Implementation by Socher (Matlab)
-
-<http://www.socher.org/index.php/Main/Semi-SupervisedRecursiveAutoencodersForPredictingSentimentDistributions>
-
-```
-\\@inproceedings{SocherEtAl2011:RAE,
-\\author = {Richard Socher and Jeffrey Pennington and Eric H. Huang and Andrew Y. Ng and Christopher D. Manning},
-\\title = {{Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions}},
-\\booktitle = {Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing (EMNLP)}, 
-\\year = 2011
-\\}
-```
-
+ - Implementation by Socher (Matlab)   
+<http://www.socher.org/index.php/Main/Semi-SupervisedRecursiveAutoencodersForPredictingSentimentDistributions>   
 <http://www.socher.org/index.php/Main/Dynamic PoolingAndUnfoldingRecursiveAutoencodersForParaphraseDetection>
-
-```
-\\@incollection{SocherEtAl2011:PoolRAE,
-\\title = {{Dynamic Pooling and Unfolding Recursive Autoencoders for Paraphrase Detection}},
-\\author = {{Richard Socher and Eric H. Huang and Jeffrey Pennington and Andrew Y. Ng and Christopher D. Manning}},
-\\booktitle = {{Advances in Neural Information Processing Systems 24}},
-\\year = {2011}
-\\}
-```
 
 ------
 
