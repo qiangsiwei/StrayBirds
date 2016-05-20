@@ -51,7 +51,7 @@ Reference: Peng Li, Yang Liu, Maosong Sun. Recursive Autoencoders for ITG-based 
 
  - Implementation by Socher (Matlab)   
 <http://www.socher.org/index.php/Main/Semi-SupervisedRecursiveAutoencodersForPredictingSentimentDistributions>   
-<http://www.socher.org/index.php/Main/Dynamic PoolingAndUnfoldingRecursiveAutoencodersForParaphraseDetection>
+<http://www.socher.org/index.php/Main/DynamicPoolingAndUnfoldingRecursiveAutoencodersForParaphraseDetection>
 
 ------
 
