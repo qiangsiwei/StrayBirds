@@ -25,7 +25,7 @@ Several Open IE systems have been proposed before now, including TEXTRUNNER [Ban
 
 主流的信息抽取通过分析句式结构，常根据语法的主、谓、宾或主、系、表将其解析上三元组的形式，为了抽取复杂句中的多个三元组，通常需要首先对复杂句进行拆解成简单句，由于语法成分的关系比较复杂，情况多变，因此成为难点之一。
 
-论文"A Dual-Layer Semantic Role Labeling System"提出了一种基于coherent clauses的句式拆解方法，之后进行角色标注。
+论文"Leveraging Linguistic Structure For Open Domain Information Extraction"提出了一种基于coherent clauses的句式拆解方法，之后进行角色标注。
 
 <https://web.stanford.edu/~angeli/papers/2015-acl-openie.pdf>
 
