@@ -11,7 +11,6 @@ comments: true
 
 ### Semantic Role Labeling
 
-
 Semantic roles are utilized to find concepts automatically and assure their meaningfulness. Semantic role labeling is a research problem which finds in a given sentence the predicates and their arguments (identification), and further labels the semantic relationship between predicates and arguments, that is, their semantic roles (classification).
 
 Gildea and Jurafsky in 2002

@@ -11,7 +11,6 @@ comments: true
 
 ### Information Extraction
 
-
 Open Information Extraction (IE) is the task of extracting assertions from massive corpora without requiring a pre-specified vocabulary.
 
 Conventionally, open IE systems search a collection of patterns over either the surface form or dependency tree of a sentence.
@@ -58,7 +57,6 @@ The goal is to find the largest subset of language from which we can extract rel
 
 ![此处输入图片的描述][6]
 
-
 ***相关连接***
 
  - https://web.stanford.edu/~angeli/papers/2015-acl-openie.pdf
@@ -69,5 +67,5 @@ The goal is to find the largest subset of language from which we can extract rel
   [2]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_2.png
   [3]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_3.png
   [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_4.png
-  [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_5.png
-  [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_6.png
+  [5]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_5.png
+  [6]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_6.png

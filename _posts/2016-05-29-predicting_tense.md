@@ -40,11 +40,6 @@ The goal of this model is to output an optimal sequence t* = {t*1, t*2, ..., t*n
 
 ![此处输入图片的描述][3]
 
-Global tense prediction.
-
-![此处输入图片的描述][4]
-
-
 ***相关连接***
 
  - http://www.aclweb.org/anthology/P04-1074
@@ -53,5 +48,3 @@ Global tense prediction.
   [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-29-predicting_tense/2016-05-29-predicting_tense_1.png
   [2]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-29-predicting_tense/2016-05-29-predicting_tense_2.png
   [3]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-29-predicting_tense/2016-05-29-predicting_tense_3.png
-  [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-29-predicting_tense/2016-05-29-predicting_tense_4.png
-  
