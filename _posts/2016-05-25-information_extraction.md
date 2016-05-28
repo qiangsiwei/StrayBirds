@@ -65,9 +65,9 @@ Two significant problems in all prior Open IE systems: incoherent extractions an
 
 针对上述问题，论文"Open Information Extraction The Second Generation"提出了一种基于文法和词汇约束的方法。
 
-Two simple constraints: Syntactic Constraint and Lexical Constraint.
+<http://turing.cs.washington.edu/papers/etzioni-ijcai2011.pdf>
 
-文法约束是基于词性标注（part-of-speech-based）的正则表达式。之后对抽取出的成分进行统计/合并形成模式，基于模式能够进一步抽取三元组。
+文法约束是基于词性标注（part-of-speech-based）的正则表达式。之后对抽取出的句式进行统计/合并形成模式，基于模式能够进一步抽取三元组。
 
 文法约束的正则表达式如下。
 
