@@ -93,9 +93,9 @@ ARGLEARNER divides this task into two subtasks - finding Arg1 and Arg2 - and the
  - https://homes.cs.washington.edu/~soderlan/Fader-emnlp11.pdf
  - http://turing.cs.washington.edu/papers/etzioni-ijcai2011.pdf
 
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_1.png
-  [2]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_2.png
-  [3]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_3.png
-  [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_4.png
-  [5]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_5.png
-  [6]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-25-information_extraction/2016-05-25-information_extraction_6.png
+  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-24-information_extraction/2016-05-24-information_extraction_1.png
+  [2]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-24-information_extraction/2016-05-24-information_extraction_2.png
+  [3]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-24-information_extraction/2016-05-24-information_extraction_3.png
+  [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-24-information_extraction/2016-05-24-information_extraction_4.png
+  [5]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-24-information_extraction/2016-05-24-information_extraction_5.png
+  [6]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-24-information_extraction/2016-05-24-information_extraction_6.png

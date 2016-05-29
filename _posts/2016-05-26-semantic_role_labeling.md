@@ -61,7 +61,7 @@ The concepts are formulated by concept templates designed according to Propbank 
 
  - http://www.aclweb.org/anthology/P15-4009
 
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-27-semantic_role_labeling/2016-05-27-semantic_role_labeling_1.png
-  [2]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-27-semantic_role_labeling/2016-05-27-semantic_role_labeling_2.png
-  [3]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-27-semantic_role_labeling/2016-05-27-semantic_role_labeling_3.png
-  [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-27-semantic_role_labeling/2016-05-27-semantic_role_labeling_4.png
+  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-26-semantic_role_labeling/2016-05-26-semantic_role_labeling_1.png
+  [2]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-26-semantic_role_labeling/2016-05-26-semantic_role_labeling_2.png
+  [3]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-26-semantic_role_labeling/2016-05-26-semantic_role_labeling_3.png
+  [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-05-26-semantic_role_labeling/2016-05-26-semantic_role_labeling_4.png
