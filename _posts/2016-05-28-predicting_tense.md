@@ -43,6 +43,8 @@ Model the thirteen relative temporal relations as the classes to be decided by a
 
 论文"One Tense per Scene: Predicting Tense in Chinese Conversations"提出了一种将单句（local）的时间信息和整体（global）的时间信息同时考虑提高时态分类准确率的方法。
 
+<http://www.aclweb.org/anthology/P15-2110>
+
 Propose a set of novel sentence-level (local) features using rich linguistic resources and then propose a new hypothesis of "One tense per scene" to incorporate scene-level (global) evidence to enhance the performance.
 
 算法的核心基于条件随机场（CRF）算法，优化目标如下，其中第一项对应单句的似然（local likelihood），第二项对句间时态的频繁切换进行惩罚（global）。
