@@ -99,7 +99,7 @@ Only require a small set of tagged seed instances or a few hand-crafted extracti
  - How to obtain seed automatically?
  - What is a good seed?
 
-* DIPRE
+### DIPRE
 
 Semi-supervised方法中的典型方法是DIPRE，其从网页中搜索符合预定规则的数据，对训练集进行扩充。
 
@@ -109,7 +109,7 @@ The system crawls the Internet to look for pages containing both instances of th
 
 ![此处输入图片的描述][5]
 
-* Snowball
+### Snowball
 
 Snowball类似于DIPRE，不同的是其将二元组表示成向量的形式，并通过相似性对二元组进行分组。
 
@@ -129,7 +129,7 @@ After grouping tuples into classes, Snowball induces a single tuple pattern P fo
 
 ![此处输入图片的描述][8]
 
-* KnowItAll and TextRunner
+### KnowItAll and TextRunner
 
 不同于DIPRE和Snowball，KnowItAll和TextRunner会基于少量领域无关的抽取规则对数据进行标注。
 
