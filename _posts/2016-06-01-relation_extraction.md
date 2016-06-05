@@ -145,7 +145,7 @@ Semi-supervised Methods方法的局限性如下。
 
 A major limitation of all systems studied here is that they are extracting relation on the sentence level. In fact, relations can span over sentences and even cross documents. It is not straightforward to modify algorithms described here to capture long range relations.
 
-后续文章将详细描述上面提到的主要算法。
+后续文章将详细分析上面提到的主要算法。
 
 ***相关连接***
 
