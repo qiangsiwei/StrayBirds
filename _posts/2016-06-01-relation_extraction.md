@@ -117,7 +117,7 @@ The classifier in Snowball is a pattern matching system like DIPRE, however, Sno
 
 其计算过程如下，重点是相似性的定义。
 
-The limit on the prefix and suffix feature vectors, Each wi is a term weight which is computed by the normalized frequency of that term in a given position. For example, term weight of token meet in the suffix is
+Each wi is a term weight which is computed by the normalized frequency of that term in a given position. For example, term weight of token meet in the suffix is
 
 ![此处输入图片的描述][6]
 
