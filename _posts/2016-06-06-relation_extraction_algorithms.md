@@ -113,7 +113,7 @@ Unlike DIPRE and Snowball, KnowItAll is a large scale Web IE system that labels 
 
 The rules are applied to web pages, identified via search-engine queries, and the resulting extractions are assigned a probability using pointwise mutual information (PMI) derived from search engine hit counts.
 
-Examples: "<NP1> such as <NP2>" & "capital of <country>"
+Examples: "<NP1> such as <NP2>" & "capital of <Country>"
 
 DIPRE, Snowball, and KnowItAll are all relation-specific systems. Instead of requiring relations to be specified in its input, TextRunner learns the relations, classes, and entities from the text in its corpus in a self-supervised fashion.
 
