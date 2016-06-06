@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Relation Extraction
+title: Relation Extraction Algorithms
 category: Notes
 comments: true
 ---
