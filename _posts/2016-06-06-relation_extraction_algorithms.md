@@ -15,7 +15,7 @@ comments: true
 
 其中基于机器学习的抽取方法可以粗分为Supervised和Semi-supervised，下面具体介绍各种算法。
 
-## Feature based Methods(Supervised)
+## Feature based Methods (Supervised)
 
 For the sake of simplicity and clarity, only restrict to binary relations between two entities. N-ary relation extraction will be discussed later.
 
@@ -37,7 +37,7 @@ the function f(.) can be constructed as a discriminative classifier like Percept
 
 Feature based methods involve heuristic choices and the features have to be selected on a trial-and-error basis in order to maximize performance.
 
-## Bag of features Kernel(Supervised)
+## Bag of features Kernel (Supervised)
 
 To remedy the problem of selecting a suitable feature-set, specialized kernels are designed for relation extraction in order to exploit rich representations of the input data like shallow parse trees etc.
 
@@ -57,7 +57,7 @@ A sentence s = w1, ..., e1, ..., wi, ..., e2, ..., wn containing related entitie
 
 Bunescu et. al. use three subkernels, one each for matching the before, middle and after portions of the entities context and the combined kernel is simply the sum of all the subkernels and augment the words in the context with their respective part-of-speech (POS) tags, entity types etc to improve over the dependency tree kernel approach.
 
-## Tree Kernels(Supervised)
+## Tree Kernels (Supervised)
 
 Compared to the previous approach, (Zelenko et al., 2003) replace the strings in the kernel of equation (4) with structured shallow parse trees built on the sentence. 
 
@@ -77,7 +77,7 @@ Using P alone as a feature would lead to bad performance due to data sparsity. T
 
 ![此处输入图片的描述][6]
 
-## DIPRE(Semi-supervised)
+## DIPRE (Semi-supervised)
 
 The main idea of both algorithms is to use the output of the weak learners as training data for the next iteration.
 
@@ -87,7 +87,7 @@ To ensure provable performance guarantees, the co-training algorithm assumes as 
 
 The general framework is shown in Algorithm 1. The system crawls the Internet to look for pages containing both instances of the seed. To learn patterns DIPRE uses a tuple of 6 elements [order,author,book,prefix,su±x,middle]. The next step is to generalize the pattern with a wild card expression. DIPRE uses this pattern to search the Web again, and extract relations.
 
-## Snowball(Semi-supervised)
+## Snowball (Semi-supervised)
 
 Snowball represents each tuple as a vector and uses a similarity function to group tuples.
 
@@ -107,7 +107,7 @@ After grouping tuples into classes, Snowball induces a single tuple pattern P fo
 
 Compared to DIPRE, Snowball has a flexible matching system. Instead of having exact surface text matches, Snowball’s metrics allows for slight variations in token or punctuation.
 
-## KnowItAll and TextRunner(Semi-supervised)
+## KnowItAll and TextRunner (Semi-supervised)
 
 Unlike DIPRE and Snowball, KnowItAll is a large scale Web IE system that labels its own training examples using only a small set of domain independent extraction patterns.
 
