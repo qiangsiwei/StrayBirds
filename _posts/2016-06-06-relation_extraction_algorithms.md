@@ -211,6 +211,8 @@ Evaluation in Supervised Methods
 
 Evaluation of Semi-supervised Methods
 
+通常在标注数据较少的情况下可以采用采样的方法对准确率进行估计。
+
 A small sample drawn randomly from the output is treated as a representative of the output and manually checked for actual relations. Since the actual number of entity relations are difficult to obtain from large amounts of data, it is difficult to compute recall to evaluate semi-supervised methods.
 
 ***相关连接***
