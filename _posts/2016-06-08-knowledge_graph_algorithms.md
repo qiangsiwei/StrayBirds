@@ -50,7 +50,7 @@ Knowledge graphs typically adhere to some deterministic rules, such as type cons
  - Block structure: entities can be divided into distinct groups (blocks), such that all the members of a group have similar relationships to members of other groups.
  - Global and long-range statistical dependencies: dependencies that can span over chains of triples and involve different types of relations.
 
-针对语义角色标注主要包含下面三种假设，即隐含特征假设、图特征假设、马尔科夫随机场假设，并由此引申出对应的不同模型和算法。
+针对语义角色标注主要包含了下面三种假设，即隐含特征假设、图特征假设、马尔科夫随机场假设，并由此引申出对应的不同模型和算法。
 
  - Assume all yijk are conditionally independent given latent features associated with subject, object and relation type and additional parameters (latent feature models)
  - Assume all yijk are conditionally independent given observed graph features and additional parameters (graph feature models)
@@ -92,11 +92,11 @@ RESCAL计算关系\类别的表达式如下，其中e是实体对应的特征向
 
 ![此处输入图片的描述][8]
 
-RESCAL之所以称为双线性模型是因为利用了两实体特征维度的乘积项进行拟合（注意与MLP模型的差别）。
+RESCAL之所以称为双线性模型，是因为利用了两实体特征维度的乘积项进行拟合（注意与MLP模型的差别）。
 
 RESCAL is called a bilinear model, since it captures the interactions between the two entity vectors using multiplicative terms.
 
-下面的例子解释了RESCAL算法的工作原理，主要通过调整权值矩阵优化参数，对数据进行拟合。
+下面的例子解释了RESCAL算法的工作原理，其主要通过调整权值矩阵优化参数，对数据进行拟合。
 
 For instance, we could model that Alec Guinness is a good actor and that the Academy Award is a prestigious award via the vectors
 
@@ -110,7 +110,7 @@ RESCAL的目标函数是最小化对数损失，可以采用梯度算法，例�
 
 The parameters of RESCAL can be estimated by minimizing the log-loss using gradient-based methods such as stochastic gradient descent. 
 
-有可以采用RESCAL-ALS方法，具有较好的计算复杂度（仅和张量中非零元素的个数成线性关系，由于张量稀疏，因此复杂度较低）。
+也可以采用RESCAL-ALS方法，其具有较好的计算复杂度（仅和张量中非零元素的个数成线性关系，由于张量稀疏，因此复杂度较低）。
 
 A single update of E and Wk scales linearly with the number of entities Ne, linearly with the number of relations Nr, and linearly with the number of observed triples, i.e., the number of non-zero entries in Y, it is called algorithm RESCAL-ALS.
 
@@ -197,7 +197,7 @@ Following table summarizes the different models we have discussed. Clearly the b
 
 ## Graph Feature Models
 
-下面介绍基于图特征的模型（特征来自于图的结构：节点、边等）
+下面介绍基于图特征的模型（特征来自于图的结构：节点、边等）。
 
 In graph feature models, we assume that the existence of an edge can be predicted by extracting features from the observed edges in the graph.
 
@@ -207,7 +207,7 @@ In graph feature models, we assume that the existence of an edge can be predicte
 
 The intuition behind these methods is that similar entities are likely to be related (homophily) and that the similarity of entities can be derived from the neighborhood of nodes or from the existence of paths between nodes.
 
-相似性包括：局部相似性（例如具有共同的邻居节点）、全局相似性（考虑节点间的所有可达路径，例如PageRank）、类局部相似性（类似于全局相似性，但对可达路径的长度进行限制，为了减少计算量）。
+相似性包括：局部相似性（例如具有共同的邻居节点）、全局相似性（考虑节点间所有可达路径，例如PageRank）、类局部相似性（类似于全局相似性，但对可达路径的长度进行限制，为了减少计算量）。
 
  - Local similarity indices such as Common Neighbors, the Adamic-Adar index or Preferential Attachment derive the similarity of entities from their number of common neighbors or their absolute number of neighbors. However, they can be too localized to capture important patterns in relational data and cannot model long-range or global dependencies.
  - Global similarity indices such as the Katz index and the Leicht-Holme-Newman index derive the similarity of entities from the ensemble of all paths between entities, while indices like Hitting Time, Commute Time, and PageRank derive the similarity of entities from random walks on the graph.
@@ -255,7 +255,7 @@ The strengths of latent and graph-based models are often complementary, as both 
 
 ### Additive relational effects model
 
-为了结合两种模型，可采用加性模型，及针对两方面特征分别建立拟合项，以加的方式进行拟合，表达式如下。
+为了结合两种模型，可采用加性模型，即针对两方面特征分别建立拟合项，以相加的方式进行拟合，表达式如下。
 
 ![此处输入图片的描述][21]
 
@@ -265,13 +265,13 @@ ARE models can be trained by alternately optimizing the RESCAL parameters with t
 
 ### Other combined models
 
-除了加性模型也可以采用其他模型进行结合，例如下面，对不同类关系分别建立拟合项进行拟合。
+除了加性模型也可以采用其他模型进行结合，例如针对不同类关系分别建立拟合项进行拟合。
 
 ![此处输入图片的描述][22]
 
 The term \Phi captures patterns efficiently where the existence of a triple y' is predictive of another triple y between the same pair of entities (but of a different relation type).
 
-另一种思路是采用模型融合，分别针对两种模型进行训练，再最终预测时结合多个模型的预测结果。
+另一种思路是采用模型融合，首先分别针对两种模型进行训练，最终预测时结合多个模型的预测结果。
 
 An alternative way to combine different prediction systems is to fit them separately, and use their outputs as inputs to another "fusion" system. 
 

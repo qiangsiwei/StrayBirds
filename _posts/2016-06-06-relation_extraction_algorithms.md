@@ -13,7 +13,7 @@ comments: true
 
 基于非结构化文本的实体关系抽取技术方法可以归纳为：基于模式匹配的关系抽取、基于词典驱动的关系抽取、基于机器学习的关系抽取、基于本体的关系抽取以及混合抽取方法。
 
-其中基于机器学习的抽取方法可以粗分为Supervised和Semi-supervised，下面具体介绍各种算法。
+其中，基于机器学习的抽取方法可以粗分为Supervised和Semi-supervised两种，下面具体介绍各种算法。
 
 ## Feature based Methods (Supervised)
 
@@ -21,7 +21,7 @@ comments: true
 
 For the sake of simplicity and clarity, only restrict to binary relations between two entities. N-ary relation extraction will be discussed later.
 
-当给出一个句子S（字符序列），实体间关系的分类器可表达如下，其中T(S)是S的特征，f是分类器，R是分类器的参数，我们需要学习的是参数R。
+当给出一个句子S（字符序列），实体间关系的分类器可表达如下，其中，T(S)是S的特征，f是分类器，R是分类器的参数，我们需要学习的是参数R。
 
 Given a sentence S = w1,w2,..,e1..,wj,..e2,..,wn, where e1 and e2 are the entities, a mapping function f(.) can be given as
 
@@ -65,7 +65,7 @@ If U is the set of all possible ordered subsequences present in strings x and y,
 
 ![此处输入图片的描述][3]
 
-算法复杂度分析如下，如果直接计算，将会产生指数级的复杂度，可以采用动态规划方法进行优化。
+算法复杂度分析如下，如果直接计算，将会产生指数级的复杂度，为了优化，可以采用动态规划方法。
 
 A straightforward computation involves exponential complexity. In practice however, the computation is performed implicitly in a efficient manner using a dynamic programming technique described in (Lodhi et al., 2002). The complexity of computation of the string-kernel is O(|x||y|2) (|x| ∏ |y|).
 
@@ -103,7 +103,7 @@ Now given a shallow parse, positive examples are constructed by enumerating the 
 
 The shortest path between the two entities in a dependency parse encodes sufficient information to extract the relation between them. If e1 and e2 are two entities in a sentence and p their predicate, then the shortest path between e1 and e2 passes through p. Let one such path be P = e1 → w1  .. → wi ← .. ← wn ← e2. 
 
-但由于数据稀疏性，仅依靠路径P效果不佳，因此可以考虑采用词性等作为特征，计算笛卡尔积，降低数据的稀疏性。
+但由于数据的稀疏性，仅依靠路径P效果不佳，因此可以考虑采用词性等作为特征，计算笛卡尔积，降低数据的稀疏性。
 
 Using P alone as a feature would lead to bad performance due to data sparsity. Therefore word-classes like POS are extracted from each of the words and the feature vectors is given by a Cartesian product as
 
@@ -113,7 +113,7 @@ Using P alone as a feature would lead to bad performance due to data sparsity. T
 
 ## DIPRE (Semi-supervised)
 
-半监督方法的一致思路是，采用弱分类器标注得到更多的数据，将其补充进训练集用于下一轮迭代。
+半监督方法的一致思路是，首先采用弱分类器标注得到更多的数据，再将其补充进训练集用于下一轮迭代。
 
 The main idea of both algorithms is to use the output of the weak learners as training data for the next iteration.
 
@@ -153,7 +153,7 @@ After grouping tuples into classes, Snowball induces a single tuple pattern P fo
 
 ![此处输入图片的描述][11]
 
-相比于DIPRE，由于增加了权重信息，因此具有更好的鲁棒性（并不要求每个字符和标点完全一致）。
+相比于DIPRE，由于增加了权重信息，因此具有更好的鲁棒性（并不要求每个字符和标点都完全一致）。
 
 Compared to DIPRE, Snowball has a flexible matching system. Instead of having exact surface text matches, Snowball’s metrics allows for slight variations in token or punctuation.
 
