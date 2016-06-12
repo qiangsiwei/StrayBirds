@@ -42,7 +42,7 @@ Typical heuristics include:
 
 However, for a long document, the resulting list of candidates can be long. Consequently, different pruning heuristics have been designed to prune candidates that are unlikely to be keyphrases.
 
-### Supervised Approaches
+## Supervised Approaches
 
 The goal is to train a classifier on documents annotated with keyphrases to determine whether a candidate phrase is a keyphrase.
 
@@ -52,20 +52,20 @@ Note that a binary classifier classifies each candidate keyphrase independently 
 
 Motivated by this observation, Jiang et al. (2009) propose a ranking approach to keyphrase extraction, where the goal is to learn a ranker to rank two candidate keyphrases.
 
-#### Within-Collection Features
+### Within-Collection Features
 
  - Statistical features: tf*idf; distance; supervised keyphraseness
  - Structural features: how different instances of a candidate keyphrase are located in different parts of a document
  - Syntactic features: the syntactic patterns of a candidate keyphrase
 
-#### External Resource-Based Features
+### External Resource-Based Features
 
  - Wikipedia-based keyphraseness: computed as a candidate’s document frequency multiplied by the ratio of the number of Wikipedia articles where the candidate appears as a link to the number of articles where it appears
  - query log of a search engine: exploiting the observation that a candidate is potentially important if it was used as a search query
 
-### Unsupervised Approaches
+## Unsupervised Approaches
 
-#### Graph-Based Ranking
+### Graph-Based Ranking
 
 Graph-Based Ranking build a graph from the input document and rank its nodes according to their importance using a graph-based ranking method (e.g., Brin and Page (1998)).
 
@@ -77,7 +77,7 @@ TextRank (Mihalcea and Tarau, 2004) is one of the most well-known graph-based ap
 
 A set of keyphrases for a document should ideally cover the main topics discussed in it, but this instantiation does not guarantee that all the main topics will be represented by the extracted keyphrases.
 
-#### Topic-Based Clustering
+### Topic-Based Clustering
 
 Topic-Based Clustering groups the candidate keyphrases in a document into topics, such that each topic is composed of all and only those candidate keyphrases that are related to that topic.
 
@@ -87,13 +87,13 @@ There are several motivations behind this topic-based clustering approach. First
  - TopicalPageRank (TPR): It runs TextRank multiple times for a document, once for each of its topics induced by a Latent Dirichlet Allocation
  - CommunityCluster: it extracts all candidate keyphrases from an important topic, assuming that a candidate that receives little focus in the text should still be extracted as a keyphrase as long as it is related to an important topic
 
-#### Simultaneous Learning
+### Simultaneous Learning
 
 A sentence is important if it contains important words, and important words appear in important sentences.
 
 Two assumptions: (1) an important sentence is connected to other important sentences, and (2) an important word is linked to other important words, a TextRank-like assumption.
 
-#### Language Modeling
+### Language Modeling
 
 LMA scores a candidate keyphrase based on two features, namely, phraseness (i.e., the ex- tent to which a word sequence can be treated as a phrase) and informativeness (i.e., the extent to which a word sequence captures the central idea of the document it appears in).
 
