@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: Aspect Extraction
 category: Notes
 comments: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: Opinion Mining
 category: Notes
 comments: true
 ---
@@ -98,27 +98,27 @@ The rules are presented using a formalism similar to the BNF form. The rules are
 
 ![此处输入图片的描述][1]
 
-1. Sentiment word or phrase
+ - Sentiment word or phrase
 
 ![此处输入图片的描述][2]
 
-2. Decreased and increased quantity of an opinionated item (N and P)
+ - Decreased and increased quantity of an opinionated item (N and P)
 
 ![此处输入图片的描述][3]
 
-3. High, low, increased and decreased quantity of a positive or negative potential item
+ - High, low, increased and decreased quantity of a positive or negative potential item
 
 ![此处输入图片的描述][4]
 
-4. Desirable or undesirable fact
+- Desirable or undesirable fact
 
 ![此处输入图片的描述][5]
 
-5. Deviation from the norm or a desired value range
+- Deviation from the norm or a desired value range
 
 ![此处输入图片的描述][6]
 
-6. Produce and consume resource and waste
+- Produce and consume resource and waste
 
 ![此处输入图片的描述][7]
 
