@@ -25,7 +25,7 @@ comments: true
 
 ## Sentiment Lexicon and Its Issues
 
-观点挖掘中情感极性的判别通常会依靠情感极性词典，然后单纯依靠词典将产生以下几方面问题。
+观点挖掘中情感极性的判别通常会依靠情感极性词典，然后单纯依靠词典将产生以下几方面的问题。
 
  - A positive or negative sentiment word may have opposite orientations in different application domains.
  - A sentence containing sentiment words may not express any sentiment. This phenomenon happens frequently in several types of sentences. Question (interrogative) sentences and conditional sentences are two important types.

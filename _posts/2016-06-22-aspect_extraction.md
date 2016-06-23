@@ -50,7 +50,7 @@ Aspect Extraction的另一种方法是基于观点（Opinion）和目标（Targe
 
 Since opinions have targets, they are obviously related. Their relationships can be exploited to extract aspects which are opinion targets because sentiment words are often known. This method was used in (Hu and Liu, 2004) for extracting infrequent aspects. The idea is as follows: The same sentiment word can be used to describe or modify different aspects. This idea turns out to be quite useful in practice even when it is applied alone.
 
-基于常识，观点和目标的搭配通常比较有限和固定，因此采用该种方法一般能够达到比较好的效果。
+基于常识，观点和目标的搭配通常都比较有限和固定，因此采用该种方法一般均能够达到比较好的效果。
 
 由于长期依赖性问题的存在，可基于依存语法树（dependency parser）更准确的抽取出关系，因此能够提高抽取的准确率。
 
