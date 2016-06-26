@@ -123,7 +123,7 @@ highlighter: pygments
 title: Qiangsiwei's Blog
 description: Focus on Machine Learning Deep Learning and Natural Language Processing
 theme: kunka
-disqusname: minixalpha
+disqusname: qiangsiwei
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
 # those themes are all come from GitHub Pages Themes
