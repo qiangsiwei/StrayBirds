@@ -122,7 +122,7 @@ safe: false
 highlighter: pygments
 title: Qiangsiwei's Blog
 description: Focus on Machine Learning Deep Learning and Natural Language Processing
-theme: leap-day
+theme: kunka
 disqusname: minixalpha
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
