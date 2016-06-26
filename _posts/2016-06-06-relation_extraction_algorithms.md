@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Relation Extraction Algorithms
-category: Notes
+category: Algorithms
 comments: true
 ---
 

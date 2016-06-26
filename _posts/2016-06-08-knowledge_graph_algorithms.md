@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Knowledge Graph Algorithms
-category: Notes
+category: Algorithms
 comments: true
 ---
 

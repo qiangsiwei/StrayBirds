@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recursive Neutral Network
-category: Notes
+category: Algorithms
 comments: true
 ---
 

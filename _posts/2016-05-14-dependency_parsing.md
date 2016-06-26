@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 依存语法ACL论文笔记(2)
-category: Notes
+category: Papers
 comments: true
 ---
 

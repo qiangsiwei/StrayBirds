@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aspect Extraction
-category: Notes
+category: Algorithms
 comments: true
 ---
 
