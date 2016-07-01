@@ -108,7 +108,7 @@ model every uncertain object to be clustered as a random variable in the same bo
 
 #### Partitioning Clustering Methods
 
-基于KL散度的相似度度量能够对数据进行聚类（基于划分或密度），最小化一个类内部的KL散度。
+基于KL散度的相似度度量能够对数据进行聚类（基于划分或密度），目标是最小化一个类内部的KL散度。
 
 Using KL divergence as similarity, a partitioning clustering method tries to partition objects into k clusters and chooses the best k representatives, one for each cluster, to minimize the total KL divergence as below,
 

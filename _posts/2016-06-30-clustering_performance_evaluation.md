@@ -28,7 +28,7 @@ The raw (unadjusted) Rand index is then given by:
 
 ![此处输入图片的描述][1]
 
-Adjusted Rand直接通过实例对类的指派（assignments）和标注的类（分类）的差异性大小，反映出聚类结果的好坏。
+Adjusted Rand直接通过实例对类的指派（assignments）和标注的类（分类）的差异大小，反映出聚类结果的好坏。
 
 Given the knowledge of the ground truth class assignments labels_true and our clustering algorithm assignments of the same samples labels_pred, the adjusted Rand index is a function that measures the similarity of the two assignments, ignoring permutations and with chance normalization.
 
@@ -50,7 +50,7 @@ Drawbacks:
 
 ## Mutual Information based scores
 
-Mutual Information based scores同Adjusted Rand类似，能够反映出聚类结果和标注的类（分类）的差异性大小，但原理基于信息熵度量，即分布的相似度。
+Mutual Information based scores同Adjusted Rand Index类似，能够反映出聚类结果和标注的类（分类）的差异性大小，但原理基于信息熵度量，即分布的相似度。
 
 Given the knowledge of the ground truth class assignments labels_true and our clustering algorithm assignments of the same samples labels_pred, the Mutual Information is a function that measures the agreement of the two assignments, ignoring permutations. Two different normalized versions of this measure are available, Normalized Mutual Information(NMI) and Adjusted Mutual Information(AMI). NMI is often used in the literature while AMI was proposed more recently and is normalized against chance.
 
