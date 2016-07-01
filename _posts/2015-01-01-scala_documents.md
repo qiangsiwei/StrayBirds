@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scala
-category: Coding Language
+category: Language
 comments: true
 ---
 

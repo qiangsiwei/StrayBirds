@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python
-category: Coding Language
+category: Language
 comments: true
 ---
 
