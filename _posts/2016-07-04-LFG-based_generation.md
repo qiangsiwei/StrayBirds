@@ -43,7 +43,7 @@ In the functional annotations, (↓) refers to the f-structure associated with t
 
 ## Generation from f-Structures
 
-The LFG-based statistical generation model defines the conditional probability P(T|F), for each candidate functionally annotated c-structure tree T (which fully specifies a surface realisation) given an f- structure F.
+The LFG-based statistical generation model defines the conditional probability P(T|F), for each candidate functionally annotated c-structure tree T (which fully specifies a surface realisation) given an f-structure F.
 
 P(T|F) is then decomposed as the product of the probabilities of all the functionally annotated CFG rewriting rules X → Y (conditioned on the left hand side (LHS) X and local features of the corresponding f-structure φ(X)) contributing to the tree T (Eq. 2).
 
