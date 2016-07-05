@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LFG-Based Generation
-category: Papers
+category: Grammar Formalisms
 comments: true
 ---
 
@@ -94,3 +94,4 @@ The PCFG-based generation algorithms are implemented in terms of a chart generat
   [3]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-07-04-LFG-based_generation/2016-07-04-LFG-based_generation_3.png
   [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-07-04-LFG-based_generation/2016-07-04-LFG-based_generation_4.png
   [5]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-07-04-LFG-based_generation/2016-07-04-LFG-based_generation_5.png
+  [6]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-07-04-LFG-based_generation/2016-07-04-LFG-based_generation_6.png
