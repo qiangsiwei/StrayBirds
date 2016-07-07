@@ -9,6 +9,8 @@ comments: true
 
 ------
 
+<https://twitter.github.io/scala_school/zh_cn/>
+
  - 表达能力：函数是一等公民、闭包
  - 简洁：类型推断、函数创建的文法支持
  - Java互操作性：可重用Java库、可重用Java工具、没有性能惩罚
