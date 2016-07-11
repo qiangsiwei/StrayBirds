@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SyntaxNet安装笔记
-category: Notes
+category: Systems
 comments: true
 ---
 

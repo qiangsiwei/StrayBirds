@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SyntaxNet原理分析(2)
-category: Notes
+category: Systems
 comments: true
 ---
 

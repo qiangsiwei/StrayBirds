@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Knowledge-bases and Crowdsourcing
-category: Papers
+category: Systems
 comments: true
 ---
 
