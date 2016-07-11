@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Knowledge-base Construction
-category: Grammar Formalisms
+category: Papers
 comments: true
 ---
 
 # DeepDive: Web-scale Knowledge-base Construction
 
 ------
-
-### DeepDive: Web-scale Knowledge-base Construction
 
 DeepDive employs statistical learning and inference to combine diverse data resources and best-of-breed algorithms. A key challenge of this approach is scalability, i.e., how to deal with terabytes of imperfect data efficiently.
 
