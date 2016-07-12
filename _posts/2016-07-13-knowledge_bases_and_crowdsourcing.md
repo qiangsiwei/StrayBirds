@@ -19,7 +19,7 @@ comments: true
  - 数据的合法性
  - 数据的一致性
 
-传统的数据清洗主要依靠数据的完整性约束，并基于统计和机器学习算法（缺少了人的主动参与）。知识库系统（结合众包）给数据清洗提供了新的思路和机遇。
+传统的数据清洗主要依靠数据的完整性约束，并基于统计和机器学习算法进行（缺少了人的主动参与）。知识库系统（结合众包）给数据清洗提供了新的思路和机遇。
 
 Classical approaches to clean data have relied on using integrity constraints, statistics, or machine learning. These approaches are known to be limited in the cleaning accuracy, which can usually be improved by consulting master data and involving experts to resolve ambiguity. The advent of knowledge bases (kbs), both general-purpose and within enterprises, and crowdsourcing marketplaces are providing yet more opportunities to achieve higher accuracy at a larger scale.
 
@@ -33,7 +33,7 @@ Katara是采用知识库系统（结合众包）进行数据清洗的首次尝�
 
 <http://da.qcri.org/ntang/dcprojects/katara.html>
 
-Katara首先从已有数据中发现表模式（table patterns）并映射到知识库，同时进行众包支持和检验，还支持脏数据修复。
+Katara首先从已有数据中发现表模式（table patterns）映射到知识库，进行众包支持和检验，还支持脏数据修复。
 
 Present Katara, the first data cleaning system that leverages prevalent trustworthy kbs and crowd-sourcing for data cleaning. Given a dirty table and a kb, Katara first discovers table patterns to map the table to the kb. With table patterns, Katara annotates tuples as either correct or incorrect by interleaving kbs and crowdsourcing. For incorrect tuples, Katara will extract top-k mappings from the kb as possible repairs.
 
