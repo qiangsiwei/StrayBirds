@@ -9,7 +9,9 @@ comments: true
 
 ------
 
-知识库是用于知识管理的一种特殊的数据库，以便于有关领域知识的采集、整理以及提取。知识库中的知识源于领域专家，它是求解问题所需领域知识的集合，包括基本事实、规则和其它有关信息。之前总结的知识图谱和知识库有一定的异同之处，知识图谱可视为知识库的一种图形化表达，更强调知识之间的拓扑关系。
+知识库是用于知识管理的一种特殊的数据库，以便于有关领域知识的采集、整理以及提取。知识库中的知识源于领域专家，它是求解问题所需领域知识的集合，包括基本事实、规则和其它有关信息。
+
+之前总结的知识图谱和知识库有一定的异同之处，知识图谱可视为知识库的一种图形化表达，更强调知识之间的拓扑关系。
 
 DeepDive是Stanford开发的自动化知识库构建系统，主要通过统计学习、推理系统从多源数据中抽取知识。
 
@@ -115,7 +117,7 @@ DeepDive then tries to map each mention to a Wikipedia entry using the following
 
 ### Relation Extraction
 
-关系抽取，采用了MaltParser和Ensemble进行dependency parsing，并采用distant supervision基于Freebase等生成了大量可能的关系，采用sparse logistic regression从词汇和文法两方面特征对关系进行推断。
+关系抽取，DeepDive采用了MaltParser和Ensemble进行dependency parsing，并采用distant supervision基于Freebase等生成了大量可能的关系，采用sparse logistic regression从词汇和文法两方面特征对关系进行推断。
 
 During feature extraction, perform dependency parsing using MaltParser and Ensemble.
 
