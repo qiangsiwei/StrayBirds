@@ -72,7 +72,7 @@ It is assumed that the information extraction is done using a simple binary clas
  - Candidate Extraction. A basic candidate extractor scans the full text of the web pages with a set of simple regular expressions and emits matching text-spans that are likely to be phone numbers.
  - Feature Extraction. Then a feature extractor collects words and phrases appearing near each candidate as its features for classification.
  - Supervision. Instead of manually curating a training set, a program with a set of rules collects candidates as positive training examples that appear in a sentence that contains words highly likely to appear next to phone numbers, such as "call", "phone" or "contact".
- - Inference. Finally, the binary classifier uses logistic re- gression to learn and predict whether the text-span is a phone number or not.
+ - Inference. Finally, the binary classifier uses logistic regression to learn and predict whether the text-span is a phone number or not.
 
 ### Evaluating Precision
 

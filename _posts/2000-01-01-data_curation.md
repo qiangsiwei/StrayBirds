@@ -15,16 +15,18 @@ For example, one web aggregator requires the curation of 80,000 URLs and a secon
 
 This paper describes Data Tamer, an end-to-end curation system we have built at M.I.T. Brandeis, and Qatar Computing Research Institute (QCRI).
 
+<https://cs.uwaterloo.ca/~ilyas/papers/StonebrakerCIDR2013.pdf>
+
 We have run Data Tamer on three real world enterprise curation problems, and it has been shown to lower curation cost by about 90%, relative to the currently deployed production software.
 
 ## Characteristics
+
+These four issues should be addressed in a single coherent architecture, which we call a data curation system.
 
  - Scalability through automation. The size of the integration problems we are encountering precludes a human-centric solution. Next generation systems will have to move to automated algorithms with human help only when necessary. In addition, advances in machine learning and the application of statistical techniques can be used to make many of the easier decisions automatically.
  - Data cleaning. Enterprise data sources are inevitably quite dirty. Attribute data may be incorrect, inaccurate or missing. Again, the scale of future problems requires an automated solution with human help only when necessary.
  - Non-programmer orientation. Current Extract, Transform and Load (ETL) systems have scripting languages that are appropriate for professional programmers. The scale of next generation problems requires that less skilled employees be able to perform integration tasks.
  - Incremental. New data sources must be integrated incrementally as they are uncovered. There is never a notion of the integration task being finished.
-
-These four issues should be addressed in a single coherent architecture, which we call a data curation system.
 
 ## Data Tamer Semantic Model
 
@@ -36,7 +38,7 @@ One or more Domain Experts (DE). These are human domain experts that can be call
 
 ### Sites and Schemas
 
-Level 3: Complete knowledge. In this case, the complete global schema for a given class of entities has been specified by the DTA using a top-down method- ology.
+Level 3: Complete knowledge. In this case, the complete global schema for a given class of entities has been specified by the DTA using a top-down methodology.
 
 Level 1: No knowledge available. In this case, nothing is known about the structure of the classes of information, and a bottom-up integration is utilized.
 
