@@ -19,7 +19,7 @@ As a result of deploying DeepDive framework across several domains, new challeng
 
 To help users, it is needed to develop principles for analyzing the system’s error as well as provide tooling for inspecting and labeling various data products of the system.
 
-在调试和系统优化方面存在的不足主要在于，难以从现有的系统输出直接反应出系统内部所存在的问题，从而有针对性的对系统进行优化（例如系统所包含的众多模块对外部都视为黑箱，因此难以从最终结果推测可能存在问题的模块和具体的问题，因此难以对症下药对系统参数进行调节），同时模块的复杂性和模块之间的相互作用更加加深了问题的挑战。
+在调试和系统优化方面存在的不足主要在于，难以从现有的系统输出直接反应出系统内部所存在的问题，从而有针对性的对系统进行优化（例如系统所包含的众多模块对外部都视为黑箱，因此难以从最终结果推测可能存在问题的模块和具体的问题，因此难以对症下药的对系统相关参数进行调节），同时模块的复杂性和模块之间的相互作用更加加深了问题的挑战。
 
 为了能够帮助用户对系统所存在的问题进行定位和排查，优化现有系统，Mindtagger的存在具有普遍意义。Mindtagger能够针对系统的不同模块的输出结果进行人工标注，并通过标注结果进行分析，对问题进行分类并制定相应的解决方案。
 
