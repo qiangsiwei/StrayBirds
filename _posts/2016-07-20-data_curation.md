@@ -11,7 +11,7 @@ comments: true
 
 Data Curation常被译为数据保管、数据保存等。业内有很多有关Data Curation的定义，比较有代表性的是英国数字保管中心（Digital Curation Centre，简称DCC）的定义如下。
 
-Data Curation指的是在数字数据的生命周期内，对这些数据进行维护、保存以及实现价值增值的所有活动，这些活动能够提高现有数据的长期利用价值；主动管理这些数据有利于减少在重新研究这些数据时出现的各种威胁以及降低因数字技术的退化而带来的各种风险；同时，Data Curation所进行的一些列活动还能使在可信赖仓储库中保管的数据能够更为广泛地共享给研究机构，以便支撑未来的研究活动。
+Data Curation指的是在数字数据的生命周期内，对这些数据进行维护、保存以及实现价值增值的所有活动，这些活动能够提高现有数据的长期利用价值；主动管理这些数据有利于减少在重新研究这些数据时出现的各种威胁以及降低因数字技术的退化而带来的各种风险；同时，Data Curation所进行的一些列活动还能使在可信赖仓储库中所保管的数据能够更为广泛地共享给研究机构，以便支撑未来的研究活动。
 
 Data curation is the act of discovering a data source(s) of interest, cleaning and transforming the new data, semantically integrating it with other local data sources, and deduplicating the resulting composite.
 
