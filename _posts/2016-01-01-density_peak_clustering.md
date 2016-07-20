@@ -1,15 +1,13 @@
 ---
 layout: post
-title: Natural Language Generation
-category: Notes
+title: Density Peak Clustering
+category: Algorithms
 comments: true
 ---
 
-# Density Peak Clustering
+# Clustering by fast search and find of density peaks
 
 ------
-
-### Density Peak Clustering
 
 Cluster analysis is aimed at classifying elements into categories on the basis of their similarity. Its applications range from astronomy to bioinformatics, bibliometrics, and pattern recognition. 
 
@@ -45,17 +43,17 @@ Results for synthetic point distributions. (A) The probability distribution from
 
 ![此处输入图片的描述][5]
 
-In our algorithm, we do not introduce a noise-signal cutoff. Instead, we first find for each cluster a border region, defined as the set of points assigned to that cluster but being within a distance dc from data points belonging to other clusters. We then find, for each cluster, the point of highest density within its border region. We denote its density by rb. The points of the cluster whose density is higher than rb are considered part of the cluster core (robust assignation). The others are considered part of the cluster halo (suitable to be considered as noise).
+In our algorithm, we do not introduce a noise-signal cutoff. Instead, we first find for each cluster a border region, defined as the set of points assigned to that cluster but being within a distance dc from data points belonging to other clusters. They then find, for each cluster, the point of highest density within its border region. They denote its density by rb. The points of the cluster whose density is higher than rb are considered part of the cluster core (robust assignation). The others are considered part of the cluster halo (suitable to be considered as noise).
 
 The method is robust with respect to changes in the metric that do not significantly affect the distances below dc, that is, that keep the density estimator in Eq.1 unchanged. Clearly, the distance in Eq.2 will be affected by such a change of metric, but it is easy to realize that the structure of the decision graph (in particular, the number of data points with a large value of d) is a consequence of the ranking of the density values, not of the actual distance between far away points.
 
-Our approach only requires measuring (or computing) the distance between all the pairs of data points and does not require parameterizing a probability distribution or a multidimensional density function. Therefore, its performance is not affected by the intrinsic dimensionality of the space in which the data points are embedded.
-
-We also applied the approach to the Olivetti Face Database, a widespread benchmark for machine learning algorithms, with the aim of identifying, without any previous training, the number of subjects in the database. This data set poses a serious challenge to our approach because the "ideal" number of clusters (namely of distinct subjects) is comparable with the number of elements in the data set (namely of different images, 10 for each subject). This makes a reliable estimate of the densities difficult. The similarity between two images was computed by following. The density is estimated by a Gaussian kernel with variance dc=0.07. For such a small set, the density estimator is unavoidably affected by large statistical errors; thus, we assign images to a cluster following a slightly more restrictive criterion than in the preceding examples. An image is assigned to the same cluster of its nearest image with higher density only if their distance is smaller than dc. As a consequence, the images further than dc from any other image of higher density remain unassigned. 
+This approach only requires measuring (or computing) the distance between all the pairs of data points and does not require parameterizing a probability distribution or a multidimensional density function. Therefore, its performance is not affected by the intrinsic dimensionality of the space in which the data points are embedded.
 
 ![此处输入图片的描述][6]
 
-Cluster analysis of the Olivetti Face Database. (A) The decision graph for the first hundred images in the database. (B) The value of γi=ridi in decreasing order for the data in (A). (C) The performance of the algorithm in recognizing subjects in the full database as a function of the number of clusters: number of subjects recognized as individuals (black line), number of clusters that include more than one subject (red line), number of subjects split in more than one cluster (green), and number of images assigned to a cluster divided by 10 (purple). (D) Pictorial representation of the cluster assignations for the first 100 images. Faces with the same color belong to the same cluster, whereas gray images are not assigned to any cluster. Cluster centers are labeled with white circles.
+They also applied the approach to the Olivetti Face Database, a widespread benchmark for machine learning algorithms, with the aim of identifying, without any previous training, the number of subjects in the database. This data set poses a serious challenge to our approach because the "ideal" number of clusters (namely of distinct subjects) is comparable with the number of elements in the data set (namely of different images, 10 for each subject). This makes a reliable estimate of the densities difficult. The similarity between two images was computed by following. The density is estimated by a Gaussian kernel with variance dc=0.07. For such a small set, the density estimator is unavoidably affected by large statistical errors; thus, we assign images to a cluster following a slightly more restrictive criterion than in the preceding examples. An image is assigned to the same cluster of its nearest image with higher density only if their distance is smaller than dc. As a consequence, the images further than dc from any other image of higher density remain unassigned. 
+
+(A) The decision graph for the first hundred images in the database. (B) The value of γi=ridi in decreasing order for the data in (A). (C) The performance of the algorithm in recognizing subjects in the full database as a function of the number of clusters: number of subjects recognized as individuals (black line), number of clusters that include more than one subject (red line), number of subjects split in more than one cluster (green), and number of images assigned to a cluster divided by 10 (purple). (D) Pictorial representation of the cluster assignations for the first 100 images. Faces with the same color belong to the same cluster, whereas gray images are not assigned to any cluster. Cluster centers are labeled with white circles.
 
 ***相关连接***
 
