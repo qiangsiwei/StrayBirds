@@ -59,11 +59,11 @@ They also applied the approach to the Olivetti Face Database, a widespread bench
 
  - http://science.sciencemag.org/content/344/6191/1492
 
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-01-01-density_peak_clustering/2016-01-01-density_peak_clustering_1.png
-  [2]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-01-01-density_peak_clustering/2016-01-01-density_peak_clustering_2.png
-  [3]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-01-01-density_peak_clustering/2016-01-01-density_peak_clustering_3.png
-  [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-01-01-density_peak_clustering/2016-01-01-density_peak_clustering_4.png
-  [5]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-01-01-density_peak_clustering/2016-01-01-density_peak_clustering_5.png
-  [6]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-01-01-density_peak_clustering/2016-01-01-density_peak_clustering_6.png
+  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-08-01-density_peak_clustering/2016-08-01-density_peak_clustering_1.png
+  [2]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-08-01-density_peak_clustering/2016-08-01-density_peak_clustering_2.png
+  [3]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-08-01-density_peak_clustering/2016-08-01-density_peak_clustering_3.png
+  [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-08-01-density_peak_clustering/2016-08-01-density_peak_clustering_4.png
+  [5]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-08-01-density_peak_clustering/2016-08-01-density_peak_clustering_5.png
+  [6]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-08-01-density_peak_clustering/2016-08-01-density_peak_clustering_6.png
 
   

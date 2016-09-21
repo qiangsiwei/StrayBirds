@@ -89,5 +89,5 @@ Current methods for visualizing document sets and the connections between them a
 
  - http://cidrdb.org/cidr2015/Papers/CIDR15_Paper32.pdf
 
-  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-01-01-big_data_information_system/2016-01-01-big_data_information_system_1.png
+  [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-08-08-big_data_information_system/2016-08-08-big_data_information_system_1.png
   

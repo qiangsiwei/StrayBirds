@@ -170,9 +170,9 @@ The class hierarchy for built-in exceptions is:
 
  - https://docs.python.org/2.7/library/index.html
 
- [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2015-01-01-python_documents/2015-01-01-python_documents_1.png
- [2]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2015-01-01-python_documents/2015-01-01-python_documents_2.png
- [3]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2015-01-01-python_documents/2015-01-01-python_documents_3.png
- [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2015-01-01-python_documents/2015-01-01-python_documents_4.png
- [5]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2015-01-01-python_documents/2015-01-01-python_documents_5.png
+ [1]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-08-15-python_documents/2016-08-15-python_documents_1.png
+ [2]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-08-15-python_documents/2016-08-15-python_documents_2.png
+ [3]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-08-15-python_documents/2016-08-15-python_documents_3.png
+ [4]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-08-15-python_documents/2016-08-15-python_documents_4.png
+ [5]: https://raw.githubusercontent.com/qiangsiwei/blog/gh-pages/_figures/2016-08-15-python_documents/2016-08-15-python_documents_5.png
 
